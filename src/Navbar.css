@@ -1,0 +1,98 @@
+/* Navbar.css */
+
+.navbar {
+    background: linear-gradient(90deg,  #0f0416,#51a2ab, #0b082b);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar-logo {
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-logo:hover {
+    color: #b8c6f7;
+  }
+  
+  .navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .navbar-links li {
+    margin: 0;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #ffffff;
+    color: black;
+    border-radius: 30px;
+  }
+  
+  .navbar-links a.active {
+    background-color: #ff4500;
+    color: #fff;
+  }
+  #signbtn {
+    padding: 10px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  #signbtn:hover {
+    background-color: #ff4500; 
+    color: white;
+    border-radius: 30px; 
+  }
+  
+
+
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      width: 100%;
+      gap: 15px;
+      padding-top: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+  
+    .navbar-links a {
+      width: 100%;
+      text-align: center;
+      padding: 10px 0;
+    }
+  }
+  
