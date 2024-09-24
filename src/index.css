@@ -11,3 +11,49 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mshome{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.fhome{
+    width: 50%;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 10%;
+    margin: 0px 50px;
+    gap: 10px;
+}
+.fhome h1{
+    width: 70%;
+    font-size: 50px;
+    color: black;
+    word-spacing: 5px;
+}
+.fhome i{
+    text-decoration: underline;
+    color: rgb(60, 55, 55);
+}
+.fhome p{
+    font-size: x-large;
+}
+.fhome button{
+    width: 150px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    border: none;
+    align-self: flex-start;
+}
+.shome{
+    width: 50%;
+}
+.shome img{
+    width: 100%;
+}
